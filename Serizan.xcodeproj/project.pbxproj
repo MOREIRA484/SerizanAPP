@@ -11,6 +11,11 @@
 		8EF398BD2AC2372400DE6ABC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF398BC2AC2372400DE6ABC /* ContentView.swift */; };
 		8EF398BF2AC2372700DE6ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF398BE2AC2372700DE6ABC /* Assets.xcassets */; };
 		8EF398C22AC2372700DE6ABC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF398C12AC2372700DE6ABC /* Preview Assets.xcassets */; };
+		8EF398CA2AC2380700DE6ABC /* NavegacaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF398C92AC2380700DE6ABC /* NavegacaoView.swift */; };
+		8EF398CC2AC2381A00DE6ABC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF398CB2AC2381A00DE6ABC /* HomeView.swift */; };
+		8EF398CE2AC2382900DE6ABC /* PesquisarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF398CD2AC2382900DE6ABC /* PesquisarView.swift */; };
+		8EF398D02AC2383A00DE6ABC /* FavoritosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF398CF2AC2383A00DE6ABC /* FavoritosView.swift */; };
+		8EF398D22AC2384E00DE6ABC /* PerfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF398D12AC2384E00DE6ABC /* PerfilView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		8EF398BC2AC2372400DE6ABC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8EF398BE2AC2372700DE6ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EF398C12AC2372700DE6ABC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EF398C92AC2380700DE6ABC /* NavegacaoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavegacaoView.swift; sourceTree = "<group>"; };
+		8EF398CB2AC2381A00DE6ABC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8EF398CD2AC2382900DE6ABC /* PesquisarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PesquisarView.swift; sourceTree = "<group>"; };
+		8EF398CF2AC2383A00DE6ABC /* FavoritosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosView.swift; sourceTree = "<group>"; };
+		8EF398D12AC2384E00DE6ABC /* PerfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 		8EF398B92AC2372400DE6ABC /* Serizan */ = {
 			isa = PBXGroup;
 			children = (
+				8EF398C82AC237F200DE6ABC /* TabBar */,
 				8EF398BA2AC2372400DE6ABC /* SerizanApp.swift */,
 				8EF398BC2AC2372400DE6ABC /* ContentView.swift */,
 				8EF398BE2AC2372700DE6ABC /* Assets.xcassets */,
@@ -65,6 +76,18 @@
 				8EF398C12AC2372700DE6ABC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EF398C82AC237F200DE6ABC /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8EF398C92AC2380700DE6ABC /* NavegacaoView.swift */,
+				8EF398CB2AC2381A00DE6ABC /* HomeView.swift */,
+				8EF398CD2AC2382900DE6ABC /* PesquisarView.swift */,
+				8EF398CF2AC2383A00DE6ABC /* FavoritosView.swift */,
+				8EF398D12AC2384E00DE6ABC /* PerfilView.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF398D02AC2383A00DE6ABC /* FavoritosView.swift in Sources */,
+				8EF398D22AC2384E00DE6ABC /* PerfilView.swift in Sources */,
+				8EF398CE2AC2382900DE6ABC /* PesquisarView.swift in Sources */,
+				8EF398CA2AC2380700DE6ABC /* NavegacaoView.swift in Sources */,
+				8EF398CC2AC2381A00DE6ABC /* HomeView.swift in Sources */,
 				8EF398BD2AC2372400DE6ABC /* ContentView.swift in Sources */,
 				8EF398BB2AC2372400DE6ABC /* SerizanApp.swift in Sources */,
 			);

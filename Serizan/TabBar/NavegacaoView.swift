@@ -9,7 +9,33 @@ import SwiftUI
 
 struct NavegacaoView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView{
+            HomeView()
+                .tabItem {
+                    Image(systemName: "house")
+                    Text("Home")
+                }
+            
+            PesquisarView()
+                .tabItem {
+                    Image(systemName: "magnifyingglass")
+                    Text("Procurar")
+                }
+
+            FavoritosView()
+                .tabItem {
+                    Image(systemName: "cart.fill")
+                    Text("Carrinho")
+                }
+
+            PerfilView()
+                .tabItem {
+                    Image(systemName: "person.fill")
+                    Text("Perfil")
+                       
+                }
+            
+        }
     }
 }
 
